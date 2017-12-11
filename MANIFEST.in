@@ -1,0 +1,5 @@
+recursive-include */* *
+prune jimmer/test*
+prune jimmer/tmp*
+exclude *.in
+exclude .git*

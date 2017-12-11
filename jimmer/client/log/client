@@ -1,0 +1,812 @@
+2017-12-05 22:21:25,004 INFO client __init__ Client started successfully.
+2017-12-05 22:21:26,261 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-05 22:21:26,266 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'msgtype': 'status', 'action': 'presence', 'user': {'status': None, 'account_name': 'newUser', 'password': None}, 'time': 1512501686}
+2017-12-05 22:21:26,356 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512501686, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-05 22:21:31,511 INFO client __init__ Client started successfully.
+2017-12-05 22:21:32,975 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-05 22:21:32,980 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'msgtype': 'status', 'time': 1512501692, 'action': 'presence', 'user': {'account_name': 'newUser1', 'password': None, 'status': None}}
+2017-12-05 22:21:33,068 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512501693, 'action': 'get_contacts', 'user_id': 'newUser1'}
+2017-12-05 22:21:41,483 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'msg', 'to': 'newUser1', 'from': 'newUser', 'encoding': 'utf-8', 'time': 1512501701, 'message': '<img src="client\\images\\smiles\\biggrin.gif"/>'}
+2017-12-05 22:21:46,095 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'to': 'newUser', 'time': 1512501706, 'from': 'newUser1', 'message': '<b>sdcadcsd</b>', 'encoding': 'utf-8', 'action': 'msg'}
+2017-12-05 22:21:48,858 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'msg', 'to': 'newUser1', 'from': 'newUser', 'encoding': 'utf-8', 'time': 1512501708, 'message': 'csdcsd'}
+2017-12-05 22:21:51,694 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'msg', 'to': 'newUser1', 'from': 'newUser', 'encoding': 'utf-8', 'time': 1512501711, 'message': '<img src="client\\images\\smiles\\blum1.gif"/>'}
+2017-12-05 22:21:58,487 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'msg', 'to': 'newUser1', 'from': 'newUser', 'encoding': 'utf-8', 'time': 1512501718, 'message': 'csdcsd<img src="client\\images\\smiles\\biggrin.gif"/>'}
+2017-12-05 22:22:04,502 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'quit', 'time': 1512501724}
+2017-12-05 22:22:04,607 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-05 22:22:04,607 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-05 22:22:05,772 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512501725, 'action': 'quit'}
+2017-12-05 22:22:05,881 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 09:20:12,103 INFO client __init__ Client started successfully.
+2017-12-06 09:20:14,357 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 09:20:14,364 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user': {'status': None, 'account_name': 'newUser', 'password': None}, 'time': 1512541214, 'action': 'presence', 'msgtype': 'status'}
+2017-12-06 09:20:14,501 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512541214, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:20:16,764 INFO client __init__ Client started successfully.
+2017-12-06 09:20:18,466 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 09:20:18,471 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'msgtype': 'status', 'time': 1512541218, 'action': 'presence', 'user': {'password': None, 'status': None, 'account_name': 'newUser1'}}
+2017-12-06 09:20:18,552 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser1', 'time': 1512541218}
+2017-12-06 09:20:27,062 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'from': 'newUser1', 'message': '<img src="client\\images\\smiles\\biggrin.gif"/>', 'to': 'newUser', 'encoding': 'utf-8', 'action': 'msg', 'time': 1512541227}
+2017-12-06 09:20:29,997 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512541229, 'from': 'newUser', 'action': 'msg', 'to': 'newUser1', 'message': '<img src="client\\images\\smiles\\bad.gif"/>', 'encoding': 'utf-8'}
+2017-12-06 09:20:38,072 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512541238, 'from': 'newUser', 'action': 'msg', 'to': 'newUser1', 'message': '<b>db ad</b>fbdfbsfbs', 'encoding': 'utf-8'}
+2017-12-06 09:21:07,817 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512541267, 'contact_name': 'newUser3', 'action': 'add_contact', 'user_id': 'newUser'}
+2017-12-06 09:21:09,030 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512541269, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:21:18,261 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512541278, 'contact_name': 'newUser4', 'action': 'add_contact', 'user_id': 'newUser'}
+2017-12-06 09:21:19,697 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512541279, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:21:24,774 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512541284, 'action': 'quit'}
+2017-12-06 09:21:24,875 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 09:21:35,108 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser1', 'contact_name': 'newUser3', 'action': 'add_contact', 'time': 1512541295}
+2017-12-06 09:21:36,804 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser1', 'time': 1512541296}
+2017-12-06 09:21:38,533 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser1', 'time': 1512541298}
+2017-12-06 09:21:39,424 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser1', 'time': 1512541299}
+2017-12-06 09:21:40,299 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser1', 'time': 1512541300}
+2017-12-06 09:21:40,978 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser1', 'time': 1512541300}
+2017-12-06 09:21:41,785 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser1', 'time': 1512541301}
+2017-12-06 09:21:42,923 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser1', 'time': 1512541302}
+2017-12-06 09:21:43,826 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser1', 'time': 1512541303}
+2017-12-06 09:21:45,143 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser1', 'time': 1512541305}
+2017-12-06 09:21:45,790 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser1', 'time': 1512541305}
+2017-12-06 09:21:46,911 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser1', 'time': 1512541306}
+2017-12-06 09:21:47,722 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser1', 'time': 1512541307}
+2017-12-06 09:21:48,446 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser1', 'time': 1512541308}
+2017-12-06 09:21:49,408 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser1', 'time': 1512541309}
+2017-12-06 09:21:50,350 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser1', 'time': 1512541310}
+2017-12-06 09:21:52,203 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'quit', 'time': 1512541312}
+2017-12-06 09:21:52,304 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 09:21:52,304 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 09:21:57,597 INFO client __init__ Client started successfully.
+2017-12-06 09:21:59,125 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 09:21:59,130 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user': {'status': None, 'password': None, 'account_name': 'newUser'}, 'msgtype': 'status', 'action': 'presence', 'time': 1512541319}
+2017-12-06 09:21:59,218 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512541319}
+2017-12-06 09:22:03,692 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512541323, 'action': 'add_contact', 'user_id': 'newUser', 'contact_name': 'newUser3'}
+2017-12-06 09:22:04,965 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512541324}
+2017-12-06 09:22:23,509 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'quit', 'time': 1512541343}
+2017-12-06 09:22:23,614 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 09:22:23,614 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 09:22:26,441 INFO client __init__ Client started successfully.
+2017-12-06 09:22:28,725 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 09:22:28,733 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user': {'password': None, 'status': None, 'account_name': 'newUser3'}, 'time': 1512541348, 'action': 'presence', 'msgtype': 'status'}
+2017-12-06 09:22:28,905 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512541348, 'action': 'get_contacts', 'user_id': 'newUser3'}
+2017-12-06 09:22:36,393 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'contact_name': 'newUser', 'time': 1512541356, 'action': 'add_contact', 'user_id': 'newUser3'}
+2017-12-06 09:22:37,395 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512541357, 'action': 'get_contacts', 'user_id': 'newUser3'}
+2017-12-06 09:22:41,856 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'contact_name': 'newUser1', 'time': 1512541361, 'action': 'add_contact', 'user_id': 'newUser3'}
+2017-12-06 09:23:07,023 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512541387, 'action': 'quit'}
+2017-12-06 09:23:07,132 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 09:23:10,267 INFO client __init__ Client started successfully.
+2017-12-06 09:23:12,237 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 09:23:12,244 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512541392, 'action': 'presence', 'msgtype': 'status', 'user': {'password': None, 'account_name': 'newUser', 'status': None}}
+2017-12-06 09:23:12,332 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512541392, 'user_id': 'newUser'}
+2017-12-06 09:23:16,393 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512541396, 'user_id': 'newUser'}
+2017-12-06 09:23:18,382 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512541398, 'contact_name': 'newUser3', 'action': 'add_contact', 'user_id': 'newUser'}
+2017-12-06 09:23:19,477 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512541399, 'user_id': 'newUser'}
+2017-12-06 09:23:20,607 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512541400, 'user_id': 'newUser'}
+2017-12-06 09:23:21,685 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512541401, 'user_id': 'newUser'}
+2017-12-06 09:23:22,669 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512541402, 'user_id': 'newUser'}
+2017-12-06 09:23:23,471 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512541403, 'user_id': 'newUser'}
+2017-12-06 09:23:24,329 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512541404, 'user_id': 'newUser'}
+2017-12-06 09:23:26,076 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512541406, 'user_id': 'newUser'}
+2017-12-06 09:23:26,909 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512541406, 'user_id': 'newUser'}
+2017-12-06 09:23:32,187 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'quit', 'time': 1512541412}
+2017-12-06 09:23:32,296 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 09:23:32,296 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 09:24:59,040 INFO client __init__ Client started successfully.
+2017-12-06 09:25:00,524 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 09:25:00,537 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user': {'account_name': 'newUser', 'password': None, 'status': None}, 'action': 'presence', 'time': 1512541500, 'msgtype': 'status'}
+2017-12-06 09:25:00,631 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512541500, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:26:14,229 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'room': '#chat3', 'user_id': 'newUser', 'action': 'join', 'time': 1512541574}
+2017-12-06 09:26:19,368 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'room': '#chat3', 'user_id': 'newUser', 'action': 'leave', 'time': 1512541579}
+2017-12-06 09:26:20,580 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512541580, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:26:22,919 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'action': 'del_contact', 'contact_name': '#chat3', 'time': 1512541582}
+2017-12-06 09:26:23,791 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512541583, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:26:48,524 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512541608, 'action': 'quit'}
+2017-12-06 09:26:48,635 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 09:26:48,635 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 09:26:57,203 INFO client __init__ Client started successfully.
+2017-12-06 09:26:58,982 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 09:26:58,987 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user': {'status': None, 'password': None, 'account_name': 'newUser'}, 'msgtype': 'status', 'action': 'presence', 'time': 1512541618}
+2017-12-06 09:26:59,078 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'action': 'get_contacts', 'time': 1512541619}
+2017-12-06 09:27:01,349 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'contact_name': 'newUser3', 'user_id': 'newUser', 'action': 'del_contact', 'time': 1512541621}
+2017-12-06 09:27:13,777 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'room': '#chat3', 'action': 'join', 'time': 1512541633}
+2017-12-06 09:27:17,118 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'room': '#chat3', 'action': 'leave', 'time': 1512541637}
+2017-12-06 09:27:23,104 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'contact_name': '#chat3', 'user_id': 'newUser', 'action': 'del_contact', 'time': 1512541643}
+2017-12-06 09:27:23,858 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'action': 'get_contacts', 'time': 1512541643}
+2017-12-06 09:27:32,301 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'room': '#chat3', 'action': 'join', 'time': 1512541652}
+2017-12-06 09:27:36,704 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'room': '#chat3', 'action': 'leave', 'time': 1512541656}
+2017-12-06 09:27:38,618 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'quit', 'time': 1512541658}
+2017-12-06 09:27:38,724 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 09:27:38,724 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 09:29:46,072 INFO client __init__ Client started successfully.
+2017-12-06 09:29:47,678 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 09:29:47,685 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user': {'password': None, 'account_name': 'newUser', 'status': None}, 'time': 1512541787, 'msgtype': 'status', 'action': 'presence'}
+2017-12-06 09:29:47,783 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512541787, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 09:29:49,758 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'contact_name': '#chat3', 'time': 1512541789, 'user_id': 'newUser', 'action': 'del_contact'}
+2017-12-06 09:29:53,915 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'room': '#chat3', 'time': 1512541793, 'user_id': 'newUser', 'action': 'join'}
+2017-12-06 09:30:00,811 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'room': '#chat3', 'time': 1512541800, 'user_id': 'newUser', 'action': 'leave'}
+2017-12-06 09:30:01,959 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512541801, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 09:30:03,684 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'contact_name': '#chat3', 'time': 1512541803, 'user_id': 'newUser', 'action': 'del_contact'}
+2017-12-06 09:30:08,149 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'room': '#chat3', 'time': 1512541808, 'user_id': 'newUser', 'action': 'join'}
+2017-12-06 09:30:12,675 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'room': '#chat3', 'time': 1512541812, 'user_id': 'newUser', 'action': 'leave'}
+2017-12-06 09:30:13,367 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512541813, 'action': 'quit'}
+2017-12-06 09:30:13,476 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 09:30:13,476 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 09:30:36,514 INFO client __init__ Client started successfully.
+2017-12-06 09:30:38,083 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 09:30:38,090 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512541838, 'user': {'password': None, 'status': None, 'account_name': 'newUser'}, 'action': 'presence', 'msgtype': 'status'}
+2017-12-06 09:30:38,175 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'action': 'get_contacts', 'time': 1512541838}
+2017-12-06 09:30:40,151 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512541840, 'room': '#chat3', 'action': 'join'}
+2017-12-06 09:30:57,673 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512541857, 'room': '#chat3', 'action': 'leave'}
+2017-12-06 09:30:59,863 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512541859, 'room': '#chat3', 'action': 'join'}
+2017-12-06 09:31:00,838 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512541860, 'room': '#chat3', 'action': 'leave'}
+2017-12-06 09:31:02,751 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512541862, 'room': '#chat', 'action': 'join'}
+2017-12-06 09:31:03,771 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512541863, 'room': '#chat', 'action': 'leave'}
+2017-12-06 09:31:04,385 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'quit', 'time': 1512541864}
+2017-12-06 09:31:04,494 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 09:31:04,494 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 09:37:02,504 INFO client __init__ Client started successfully.
+2017-12-06 09:37:04,312 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 09:37:04,321 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user': {'status': None, 'account_name': 'newUser', 'password': None}, 'action': 'presence', 'time': 1512542224, 'msgtype': 'status'}
+2017-12-06 09:37:04,467 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512542224, 'user_id': 'newUser'}
+2017-12-06 09:37:11,250 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'contact_name': '#chat3', 'action': 'del_contact', 'time': 1512542231, 'user_id': 'newUser'}
+2017-12-06 09:37:16,382 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'join', 'room': '#chat3', 'time': 1512542236, 'user_id': 'newUser'}
+2017-12-06 09:37:23,360 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'leave', 'room': '#chat3', 'time': 1512542243, 'user_id': 'newUser'}
+2017-12-06 09:37:24,961 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512542244, 'user_id': 'newUser'}
+2017-12-06 09:37:26,169 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512542246, 'user_id': 'newUser'}
+2017-12-06 09:37:27,023 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512542247, 'user_id': 'newUser'}
+2017-12-06 09:37:28,294 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512542248, 'user_id': 'newUser'}
+2017-12-06 09:37:28,885 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512542248, 'user_id': 'newUser'}
+2017-12-06 09:37:30,826 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512542250, 'user_id': 'newUser'}
+2017-12-06 09:37:31,533 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512542251, 'user_id': 'newUser'}
+2017-12-06 09:37:32,130 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512542252, 'user_id': 'newUser'}
+2017-12-06 09:37:32,794 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512542252, 'user_id': 'newUser'}
+2017-12-06 09:37:33,180 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512542253, 'user_id': 'newUser'}
+2017-12-06 09:37:33,384 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512542253, 'user_id': 'newUser'}
+2017-12-06 09:37:33,584 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512542253, 'user_id': 'newUser'}
+2017-12-06 09:37:34,541 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512542254, 'user_id': 'newUser'}
+2017-12-06 09:37:36,452 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512542256, 'user_id': 'newUser'}
+2017-12-06 09:37:39,184 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512542259, 'user_id': 'newUser'}
+2017-12-06 09:37:39,936 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'quit', 'time': 1512542259}
+2017-12-06 09:37:40,042 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 09:37:40,906 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 09:37:40,912 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user': {'status': None, 'account_name': 'newUser', 'password': None}, 'action': 'presence', 'time': 1512542260, 'msgtype': 'status'}
+2017-12-06 09:37:41,006 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512542261, 'user_id': 'newUser'}
+2017-12-06 09:37:42,382 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512542262, 'user_id': 'newUser'}
+2017-12-06 09:37:43,123 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512542263, 'user_id': 'newUser'}
+2017-12-06 09:37:43,774 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512542263, 'user_id': 'newUser'}
+2017-12-06 09:37:44,441 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512542264, 'user_id': 'newUser'}
+2017-12-06 09:37:45,107 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512542265, 'user_id': 'newUser'}
+2017-12-06 09:37:45,640 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'quit', 'time': 1512542265}
+2017-12-06 09:37:45,742 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 09:37:48,562 INFO client __init__ Client started successfully.
+2017-12-06 09:37:50,057 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 09:37:50,065 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542270, 'msgtype': 'status', 'action': 'presence', 'user': {'status': None, 'account_name': 'newUser', 'password': None}}
+2017-12-06 09:37:50,202 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512542270, 'action': 'get_contacts'}
+2017-12-06 09:37:52,480 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'contact_name': '#chat3', 'time': 1512542272, 'action': 'del_contact'}
+2017-12-06 09:37:53,494 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512542273, 'action': 'get_contacts'}
+2017-12-06 09:37:54,330 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512542274, 'action': 'get_contacts'}
+2017-12-06 09:37:54,978 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512542274, 'action': 'get_contacts'}
+2017-12-06 09:37:55,729 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512542275, 'action': 'get_contacts'}
+2017-12-06 09:37:57,423 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512542277, 'action': 'get_contacts'}
+2017-12-06 09:37:58,446 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512542278, 'action': 'get_contacts'}
+2017-12-06 09:37:58,988 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512542278, 'action': 'get_contacts'}
+2017-12-06 09:37:59,160 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512542279, 'action': 'get_contacts'}
+2017-12-06 09:37:59,366 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512542279, 'action': 'get_contacts'}
+2017-12-06 09:37:59,606 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512542279, 'action': 'get_contacts'}
+2017-12-06 09:37:59,822 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512542279, 'action': 'get_contacts'}
+2017-12-06 09:38:00,020 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512542280, 'action': 'get_contacts'}
+2017-12-06 09:38:00,230 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512542280, 'action': 'get_contacts'}
+2017-12-06 09:38:00,412 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512542280, 'action': 'get_contacts'}
+2017-12-06 09:38:08,487 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512542288, 'action': 'get_contacts'}
+2017-12-06 09:38:09,598 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512542289, 'action': 'get_contacts'}
+2017-12-06 09:38:12,555 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512542292, 'action': 'get_contacts'}
+2017-12-06 09:38:30,495 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512542310, 'action': 'get_contacts'}
+2017-12-06 09:38:31,193 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542311, 'action': 'quit'}
+2017-12-06 09:38:31,299 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 09:38:49,167 INFO client __init__ Client started successfully.
+2017-12-06 09:38:50,426 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 09:38:50,433 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user': {'status': None, 'password': None, 'account_name': 'newUser'}, 'time': 1512542330, 'action': 'presence', 'msgtype': 'status'}
+2017-12-06 09:38:50,532 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512542330}
+2017-12-06 09:38:59,367 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'room': '#chat3', 'time': 1512542339, 'action': 'join', 'user_id': 'newUser'}
+2017-12-06 09:39:04,976 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'room': '#chat3', 'time': 1512542344, 'action': 'leave', 'user_id': 'newUser'}
+2017-12-06 09:39:06,134 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512542346}
+2017-12-06 09:39:07,307 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512542347}
+2017-12-06 09:39:16,326 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512542356}
+2017-12-06 09:39:32,393 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'quit', 'time': 1512542372}
+2017-12-06 09:39:32,502 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 09:39:32,502 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 09:39:53,267 INFO client __init__ Client started successfully.
+2017-12-06 09:39:54,750 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 09:39:54,759 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'msgtype': 'status', 'user': {'account_name': 'newUser', 'password': None, 'status': None}, 'time': 1512542394, 'action': 'presence'}
+2017-12-06 09:39:54,863 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'action': 'get_contacts', 'time': 1512542394}
+2017-12-06 09:39:57,591 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'action': 'get_contacts', 'time': 1512542397}
+2017-12-06 09:39:59,020 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'quit', 'time': 1512542399}
+2017-12-06 09:39:59,126 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 09:40:01,860 INFO client __init__ Client started successfully.
+2017-12-06 09:40:03,049 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 09:40:03,058 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542403, 'action': 'presence', 'msgtype': 'status', 'user': {'account_name': 'newUser', 'status': None, 'password': None}}
+2017-12-06 09:40:03,159 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542403, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:40:08,042 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542408, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:40:09,481 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542409, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:40:11,174 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542411, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:40:11,911 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542411, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:40:12,246 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542412, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:40:13,569 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542413, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:40:14,415 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542414, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:40:15,260 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542415, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:40:15,967 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542415, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:40:17,085 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542417, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:40:18,815 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542418, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:40:20,005 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542420, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:40:56,005 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542456, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:41:00,837 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542460, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:41:19,108 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542479, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:41:20,217 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542480, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:41:21,045 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542481, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:41:21,789 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542481, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:41:22,513 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542482, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:41:23,311 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542483, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:41:24,163 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542484, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:41:24,990 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542484, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:41:27,204 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542487, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:41:28,053 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542488, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:41:28,863 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542488, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:41:29,637 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542489, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:41:30,408 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542490, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:41:30,789 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542490, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:41:31,510 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542491, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:41:32,143 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542492, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:41:34,635 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542494, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:41:35,313 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542495, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:41:35,647 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542495, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:41:36,453 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542496, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:41:36,849 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542496, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 09:41:51,999 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512542511, 'action': 'quit'}
+2017-12-06 09:41:52,101 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 09:41:52,101 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 20:47:32,071 INFO client __init__ Client started successfully.
+2017-12-06 20:47:33,647 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 20:47:33,660 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512582453, 'user': {'password': None, 'account_name': 'newUser', 'status': None}, 'action': 'presence', 'msgtype': 'status'}
+2017-12-06 20:47:33,812 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512582453, 'action': 'get_contacts'}
+2017-12-06 20:47:36,414 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512582456, 'action': 'quit'}
+2017-12-06 20:47:36,515 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 20:47:37,082 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 20:47:37,089 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512582457, 'user': {'password': None, 'account_name': 'newUser', 'status': None}, 'action': 'presence', 'msgtype': 'status'}
+2017-12-06 20:47:37,166 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512582457, 'action': 'get_contacts'}
+2017-12-06 20:48:06,412 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512582486, 'action': 'quit'}
+2017-12-06 20:48:06,513 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 20:48:07,044 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 20:48:07,044 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 20:48:07,049 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512582487, 'user': {'password': None, 'account_name': 'newUser', 'status': None}, 'action': 'presence', 'msgtype': 'status'}
+2017-12-06 20:48:07,049 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512582487, 'user': {'password': None, 'account_name': 'newUser', 'status': None}, 'action': 'presence', 'msgtype': 'status'}
+2017-12-06 20:48:07,125 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512582487, 'action': 'get_contacts'}
+2017-12-06 20:48:07,125 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512582487, 'action': 'get_contacts'}
+2017-12-06 20:48:12,856 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512582492, 'action': 'quit'}
+2017-12-06 20:48:12,856 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512582492, 'action': 'quit'}
+2017-12-06 20:48:12,957 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 20:48:12,957 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 20:48:12,957 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 20:48:17,760 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 20:48:17,760 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 20:48:17,760 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 20:48:17,768 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512582497, 'user': {'password': None, 'account_name': 'newUser', 'status': None}, 'action': 'presence', 'msgtype': 'status'}
+2017-12-06 20:48:17,768 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512582497, 'user': {'password': None, 'account_name': 'newUser', 'status': None}, 'action': 'presence', 'msgtype': 'status'}
+2017-12-06 20:48:17,768 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512582497, 'user': {'password': None, 'account_name': 'newUser', 'status': None}, 'action': 'presence', 'msgtype': 'status'}
+2017-12-06 20:48:17,944 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512582497, 'action': 'get_contacts'}
+2017-12-06 20:48:17,944 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512582497, 'action': 'get_contacts'}
+2017-12-06 20:48:17,944 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512582497, 'action': 'get_contacts'}
+2017-12-06 20:48:35,700 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512582515, 'action': 'get_contacts'}
+2017-12-06 20:48:35,700 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512582515, 'action': 'get_contacts'}
+2017-12-06 20:48:35,700 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512582515, 'action': 'get_contacts'}
+2017-12-06 20:49:02,842 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512582542, 'action': 'get_contacts'}
+2017-12-06 20:49:02,842 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512582542, 'action': 'get_contacts'}
+2017-12-06 20:49:02,842 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512582542, 'action': 'get_contacts'}
+2017-12-06 20:49:03,701 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512582543, 'action': 'get_contacts'}
+2017-12-06 20:49:03,701 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512582543, 'action': 'get_contacts'}
+2017-12-06 20:49:03,701 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512582543, 'action': 'get_contacts'}
+2017-12-06 20:51:17,826 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512582677, 'action': 'get_contacts'}
+2017-12-06 20:51:17,826 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512582677, 'action': 'get_contacts'}
+2017-12-06 20:51:17,826 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512582677, 'action': 'get_contacts'}
+2017-12-06 20:51:19,222 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512582679, 'action': 'get_contacts'}
+2017-12-06 20:51:19,222 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512582679, 'action': 'get_contacts'}
+2017-12-06 20:51:19,222 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512582679, 'action': 'get_contacts'}
+2017-12-06 20:51:47,183 INFO client __init__ Client started successfully.
+2017-12-06 20:51:48,610 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 20:51:48,616 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512582708, 'user': {'status': None, 'password': None, 'account_name': 'newUser'}, 'msgtype': 'status', 'action': 'presence'}
+2017-12-06 20:51:48,735 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512582708, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 20:52:45,654 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512582765, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 20:53:10,584 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512582790, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 20:53:23,526 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512582803, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 20:53:38,556 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512582818, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 20:53:52,693 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512582832, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 20:55:32,502 INFO client __init__ Client started successfully.
+2017-12-06 20:55:33,923 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 20:55:33,932 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user': {'account_name': 'newUser', 'password': None, 'status': None}, 'msgtype': 'status', 'action': 'presence', 'time': 1512582933}
+2017-12-06 20:55:34,092 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'action': 'get_contacts', 'time': 1512582934}
+2017-12-06 20:55:38,719 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'action': 'get_contacts', 'time': 1512582938}
+2017-12-06 20:55:40,132 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'action': 'get_contacts', 'time': 1512582940}
+2017-12-06 20:55:49,607 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'action': 'get_contacts', 'time': 1512582949}
+2017-12-06 20:56:01,959 INFO client __init__ Client started successfully.
+2017-12-06 20:56:03,294 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 20:56:03,303 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512582963, 'action': 'presence', 'msgtype': 'status', 'user': {'account_name': 'newUser', 'status': None, 'password': None}}
+2017-12-06 20:56:03,509 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512582963, 'action': 'get_contacts'}
+2017-12-06 20:56:23,818 INFO client __init__ Client started successfully.
+2017-12-06 20:56:24,891 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 20:56:24,901 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'presence', 'time': 1512582984, 'user': {'account_name': 'newUser', 'password': None, 'status': None}, 'msgtype': 'status'}
+2017-12-06 20:56:25,065 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512582985}
+2017-12-06 20:57:07,057 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'quit', 'time': 1512583027}
+2017-12-06 20:57:07,163 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 20:57:07,269 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 20:57:07,277 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'presence', 'time': 1512583027, 'user': {'account_name': 'newUser', 'password': None, 'status': None}, 'msgtype': 'status'}
+2017-12-06 20:57:07,352 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512583027}
+2017-12-06 20:58:00,075 INFO client __init__ Client started successfully.
+2017-12-06 20:58:01,524 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 20:58:01,534 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'presence', 'user': {'status': None, 'password': None, 'account_name': 'newUser'}, 'msgtype': 'status', 'time': 1512583081}
+2017-12-06 20:58:01,643 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512583081}
+2017-12-06 20:58:07,666 INFO client __init__ Client started successfully.
+2017-12-06 20:58:09,072 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 20:58:09,081 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'presence', 'user': {'password': None, 'status': None, 'account_name': 'newUser'}, 'time': 1512583089, 'msgtype': 'status'}
+2017-12-06 20:58:09,231 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512583089, 'action': 'get_contacts'}
+2017-12-06 21:12:23,820 INFO client __init__ Client started successfully.
+2017-12-06 21:12:25,513 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 21:12:25,521 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'presence', 'msgtype': 'status', 'user': {'account_name': 'newUser', 'password': None, 'status': None}, 'time': 1512583945}
+2017-12-06 21:12:25,670 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512583945, 'user_id': 'newUser'}
+2017-12-06 21:12:46,982 INFO client __init__ Client started successfully.
+2017-12-06 21:12:48,431 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 21:12:48,437 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'presence', 'msgtype': 'status', 'user': {'password': None, 'account_name': 'newUser', 'status': None}, 'time': 1512583968}
+2017-12-06 21:12:52,640 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512583972}
+2017-12-06 21:13:08,591 INFO client __init__ Client started successfully.
+2017-12-06 21:13:09,819 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 21:13:09,827 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'msgtype': 'status', 'time': 1512583989, 'action': 'presence', 'user': {'status': None, 'password': None, 'account_name': 'newUser'}}
+2017-12-06 21:13:12,198 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512583992}
+2017-12-06 21:13:25,573 INFO client __init__ Client started successfully.
+2017-12-06 21:13:27,124 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 21:13:27,135 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user': {'status': None, 'password': None, 'account_name': 'newUser'}, 'time': 1512584007, 'msgtype': 'status', 'action': 'presence'}
+2017-12-06 21:13:28,882 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512584008}
+2017-12-06 21:13:33,950 INFO client __init__ Client started successfully.
+2017-12-06 21:13:35,232 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 21:13:35,242 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'msgtype': 'status', 'time': 1512584015, 'action': 'presence', 'user': {'status': None, 'password': None, 'account_name': 'newUser'}}
+2017-12-06 21:13:35,461 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584015, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 21:14:40,622 INFO client __init__ Client started successfully.
+2017-12-06 21:14:42,222 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 21:14:42,233 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user': {'status': None, 'account_name': 'newUser', 'password': None}, 'time': 1512584082, 'msgtype': 'status', 'action': 'presence'}
+2017-12-06 21:14:42,374 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512584082, 'user_id': 'newUser'}
+2017-12-06 21:15:17,242 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'time': 1512584117, 'user_id': 'newUser'}
+2017-12-06 21:15:18,786 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'quit', 'time': 1512584118}
+2017-12-06 21:15:18,893 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 21:15:22,117 INFO client __init__ Client started successfully.
+2017-12-06 21:15:23,505 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 21:15:23,514 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user': {'password': None, 'status': None, 'account_name': 'newUser'}, 'msgtype': 'status', 'action': 'presence', 'time': 1512584123}
+2017-12-06 21:15:23,603 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584123, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 21:15:25,377 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584125, 'action': 'quit'}
+2017-12-06 21:15:25,482 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 21:15:25,482 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 21:15:26,922 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 21:15:26,922 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 21:15:26,925 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user': {'password': None, 'status': None, 'account_name': 'newUser'}, 'msgtype': 'status', 'action': 'presence', 'time': 1512584126}
+2017-12-06 21:15:26,925 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user': {'password': None, 'status': None, 'account_name': 'newUser'}, 'msgtype': 'status', 'action': 'presence', 'time': 1512584126}
+2017-12-06 21:15:26,994 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584126, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 21:15:26,994 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584126, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 21:16:32,139 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584192, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 21:16:32,139 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584192, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 21:16:33,775 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584193, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 21:16:33,775 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584193, 'action': 'get_contacts', 'user_id': 'newUser'}
+2017-12-06 21:16:44,902 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584204, 'action': 'quit'}
+2017-12-06 21:16:44,902 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584204, 'action': 'quit'}
+2017-12-06 21:16:45,011 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 21:16:45,011 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 21:16:45,011 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 21:16:49,676 INFO client __init__ Client started successfully.
+2017-12-06 21:16:50,838 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 21:16:50,858 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'msgtype': 'status', 'time': 1512584210, 'action': 'presence', 'user': {'account_name': 'newUser', 'status': None, 'password': None}}
+2017-12-06 21:16:50,975 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512584210, 'action': 'get_contacts'}
+2017-12-06 21:16:52,019 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584212, 'action': 'quit'}
+2017-12-06 21:16:52,125 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 21:16:52,125 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 21:16:52,871 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 21:16:52,871 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 21:16:52,878 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'msgtype': 'status', 'time': 1512584212, 'action': 'presence', 'user': {'account_name': 'newUser', 'status': None, 'password': None}}
+2017-12-06 21:16:52,878 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'msgtype': 'status', 'time': 1512584212, 'action': 'presence', 'user': {'account_name': 'newUser', 'status': None, 'password': None}}
+2017-12-06 21:16:52,944 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512584212, 'action': 'get_contacts'}
+2017-12-06 21:16:52,944 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512584212, 'action': 'get_contacts'}
+2017-12-06 21:16:53,989 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512584213, 'action': 'get_contacts'}
+2017-12-06 21:16:53,989 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512584213, 'action': 'get_contacts'}
+2017-12-06 21:16:54,814 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512584214, 'action': 'get_contacts'}
+2017-12-06 21:16:54,814 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'user_id': 'newUser', 'time': 1512584214, 'action': 'get_contacts'}
+2017-12-06 21:16:56,679 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584216, 'action': 'quit'}
+2017-12-06 21:16:56,679 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584216, 'action': 'quit'}
+2017-12-06 21:16:56,783 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 21:16:56,783 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 21:19:26,864 INFO client __init__ Client started successfully.
+2017-12-06 21:19:28,246 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 21:19:28,254 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584368, 'msgtype': 'status', 'user': {'status': None, 'password': None, 'account_name': 'newUser'}, 'action': 'presence'}
+2017-12-06 21:19:28,399 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584368, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 21:21:09,481 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584469, 'action': 'quit'}
+2017-12-06 21:21:09,594 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 21:21:12,503 INFO client __init__ Client started successfully.
+2017-12-06 21:21:14,771 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 21:21:14,778 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'msgtype': 'status', 'action': 'presence', 'time': 1512584474, 'user': {'password': None, 'status': None, 'account_name': 'newUser'}}
+2017-12-06 21:21:14,869 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512584474}
+2017-12-06 21:21:16,263 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512584476}
+2017-12-06 21:21:17,416 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512584477}
+2017-12-06 21:21:18,389 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512584478}
+2017-12-06 21:21:19,230 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512584479}
+2017-12-06 21:21:20,059 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512584480}
+2017-12-06 21:21:20,807 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512584480}
+2017-12-06 21:21:21,766 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512584481}
+2017-12-06 21:21:22,621 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512584482}
+2017-12-06 21:21:23,379 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512584483}
+2017-12-06 21:21:24,303 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512584484}
+2017-12-06 21:21:25,051 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512584485}
+2017-12-06 21:21:25,760 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512584485}
+2017-12-06 21:21:26,423 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512584486}
+2017-12-06 21:21:27,103 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512584487}
+2017-12-06 21:21:27,761 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512584487}
+2017-12-06 21:21:28,386 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512584488}
+2017-12-06 21:21:29,024 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512584489}
+2017-12-06 21:21:29,653 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512584489}
+2017-12-06 21:21:30,369 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512584490}
+2017-12-06 21:21:31,016 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'get_contacts', 'user_id': 'newUser', 'time': 1512584491}
+2017-12-06 21:21:32,061 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'action': 'quit', 'time': 1512584492}
+2017-12-06 21:21:32,164 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 21:21:32,164 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-06 21:21:45,310 INFO client __init__ Client started successfully.
+2017-12-06 21:21:46,626 INFO client start_session Successfully connected with server 127.0.0.1:7777.
+2017-12-06 21:21:46,633 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584506, 'action': 'presence', 'user': {'account_name': 'newUser', 'status': None, 'password': None}, 'msgtype': 'status'}
+2017-12-06 21:21:46,721 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584506, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 21:21:48,058 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584508, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 21:21:48,816 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584508, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 21:21:49,543 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584509, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 21:21:50,934 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584510, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 21:21:51,718 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584511, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 21:21:52,624 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584512, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 21:21:53,418 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584513, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 21:21:54,185 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584514, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 21:21:54,984 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584514, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 21:21:55,724 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584515, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 21:21:56,518 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584516, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 21:21:57,450 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584517, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 21:21:58,581 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584518, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 21:21:59,302 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584519, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 21:21:59,861 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584519, 'user_id': 'newUser', 'action': 'get_contacts'}
+2017-12-06 21:22:01,001 INFO client send_message Message sent to server 127.0.0.1:7777.
+						Message data: {'time': 1512584521, 'action': 'quit'}
+2017-12-06 21:22:01,102 INFO client end_session Successfully disconnected from server 127.0.0.1:7777.
+2017-12-11 20:47:34,399 INFO client __init__ Client started successfully.
