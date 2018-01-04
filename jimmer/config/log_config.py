@@ -90,6 +90,7 @@ class Log:
             try:
                 setattr(self, parameter, args[0].__getattribute__(parameter))
             except AttributeError:
+                # print(message, args)
                 setattr(self, parameter, args[1])
 
             if parameter not in message_parameters_dict.keys():

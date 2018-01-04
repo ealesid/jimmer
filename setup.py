@@ -2,6 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='jimmer',
+    version='0.11',
     description='An example of messenger based on JIM protocol.',
     long_description='Jimmer is a simple messenger (server+client) written on Python. Message transfer based on JSON IM Protocol',
     url='https://github.com/ealesid/jimmer',

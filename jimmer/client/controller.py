@@ -1,6 +1,6 @@
-from sys import argv, exit
-from os.path import abspath, join, isdir, isfile
 from os import listdir
+from os.path import abspath, join, isdir, isfile
+from sys import argv, exit
 
 from PyQt5.QtCore import Qt, QSize, QThread, pyqtSignal
 from PyQt5.QtWidgets import QApplication, QMenu, QGridLayout, QToolButton, QAction
@@ -32,6 +32,7 @@ class ClientGuiController:
 
         self.html_parser = HtmlToShortTag()
         self.chats = {}
+        self.message_queue = {}
         self.login = None
         self.store = None
         self.chat = None
@@ -127,7 +128,7 @@ class ClientGuiController:
             store.get_or_create_contact(_contact)
 
         self.client_view.lstContacts.addItem(_contact)
-        self.client_view.lstContacts.sortItems()
+        # self.client_view.lstContacts.sortItems()
 
     def del_contact_item(self):
         self.client_view.lstContacts.takeItem(self.client_view.lstContacts.currentRow())
@@ -167,6 +168,7 @@ class ClientGuiController:
     def chat_clicked(self):
         _chat = self.client_view.lnContact.text()
         _chat_action = self.client_view.btnChat.text().lower()
+
         if _chat and not is_chat(_chat):
             self.client_view.statusMessage.showMessage('Selected contact is not chat.', 2000)
         elif _chat and _chat_action == ACT_JOIN:
@@ -194,6 +196,11 @@ class ClientGuiController:
 
             self.chats.update({self.receiver: self.chat})
 
+            if self.message_queue.get(self.receiver):
+                while self.message_queue.get(self.receiver):
+                    self.update_chat(self.message_queue.get(self.receiver).pop(0))
+                self.client_view.lstContacts.findItems(self.receiver, Qt.MatchExactly)[0].setBackground(Qt.transparent)
+
     def update_chat(self, *args):
         try:
             _chat, _message = args
@@ -205,20 +212,24 @@ class ClientGuiController:
             else:
                 _chat = self.chats.get(_message.get(FIELD_SENDER))
 
-        _chat.txtChatMessages.moveCursor(QTextCursor.End)
+        if _chat:
+            _chat.txtChatMessages.moveCursor(QTextCursor.End)
 
-        if isinstance(_message, str):
-            _chat.txtChatMessages.insertHtml(_message)
-            _chat.txtChatMessages.insertHtml('<br />')
-            # _chat.txtChatMessages.insertPlainText(_message.strip())
-            # _chat.txtChatMessages.insertPlainText('\r')
-        elif isinstance(_message, dict):
-            _chat.txtChatMessages.insertHtml(
-                '<b>{}:</b> {}'.format(_message.get(FIELD_SENDER), _message.get(FIELD_MESSAGE)))
-            _chat.txtChatMessages.insertHtml('<br />')
-            # _chat.txtChatMessages.insertPlainText(
-            #     '{}: {}'.format(_message.get(FIELD_SENDER), _message.get(FIELD_MESSAGE).strip()))
-            # _chat.txtChatMessages.insertPlainText('\r')
+            if isinstance(_message, str):
+                _chat.txtChatMessages.insertHtml(_message)
+                _chat.txtChatMessages.insertHtml('<br />')
+            elif isinstance(_message, dict):
+                _chat.txtChatMessages.insertHtml(
+                    '<b>{}:</b> {}'.format(_message.get(FIELD_SENDER), _message.get(FIELD_MESSAGE)))
+                _chat.txtChatMessages.insertHtml('<br />')
+
+        else:
+            self.client_view.lstContacts.findItems(
+                _message.get(FIELD_SENDER), Qt.MatchExactly)[0].setBackground(Qt.cyan)
+            _contact = _message.get(FIELD_SENDER)
+            if _contact not in self.message_queue:
+                self.message_queue.update({_contact: []})
+            self.message_queue.get(_contact).append(_message)
 
     def end_chat(self, chat):
         if is_chat(chat):

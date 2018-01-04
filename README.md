@@ -7,10 +7,6 @@ From pypi (using pip):
 
     pip install jimmer
 
-From Git:
-
-https://github.com/ealesid/jimmer
-
 ## Server start:
 
     python server_start.py
