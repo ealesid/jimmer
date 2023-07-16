@@ -13,6 +13,6 @@ setup(
     include_package_data=True,
     python_requires='>=3.5',
     install_requires=[
-        'PyQt5==5.9', 'SQLAlchemy==1.1.14'
+        'PyQt5==5.9', 'SQLAlchemy==1.3.0'
     ],
 )
